@@ -1,0 +1,127 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* style navbar */
+.navbar {
+  background: #e7e6e1;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f2a154;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.btn {
+  color: #314e52;
+  background-color: #f2a154;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+/* perkenalan */
+.perkenalan {
+  margin-top: 100px;
+  font-family: Poppins;
+}
+
+.perkenalan p {
+  color: #314e52;
+}
+
+.perkenalan span {
+  color: #9ddadb;
+  text-shadow: 2px 2px #e7e6e1;
+}
+
+.perkenalan h5 {
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.tentang-saya h2 {
+  border-bottom: 3px solid #f2a154;
+  padding-bottom: 5px;
+  width: 25%;
+  padding-top: 4rem;
+}
+
+.skill h2 {
+  border-bottom: 3px solid #9ddadb;
+  padding-bottom: 5px;
+  width: 12%;
+  padding-top: 4rem;
+}
+
+.portofolio h2 {
+  border-bottom: 3px solid #f2a154;
+  padding-bottom: 5px;
+  width: 12%;
+  padding-top: 4rem;
+}
+
+.kontak1 h2 {
+  border-bottom: 3px solid #9ddadb;
+  padding-bottom: 5px;
+  width: 15%;
+}
+
+.gambar-diri img {
+  width: 200px;
+}
+
+.kontak img {
+  margin-left: 10%;
+  width: 200px;
+}
+
+.kontak1 {
+  padding-top: 4rem;
+}
+
+/* desktop version */
+@media (max-width: 992px) {
+  .nav-link {
+    font-weight: 400;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    text-align: left;
+  }
+}
+
+/* mobile version */
+@media only screen and (max-width: 600px) {
+  .container {
+    text-align: center;
+  }
+
+  form {
+    text-align: left;
+  }
+}
