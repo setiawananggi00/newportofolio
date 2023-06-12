@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Orchidee";
+  src: url(Orchidee/OrchideeLight.ttf) format("truetype");
+}
+
+* {
+  font-family: "Orchidee", arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section1 {
+  background-image: url(img/jumbotron.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -140px;
+  color: #eaeaea;
+}
+
+.section1 h1 {
+  font-family: "Orchidee", arial;
+  font-weight: 400;
+  color: #eaeaea;
+  padding-top: 90px;
+  text-shadow: 2px 2px #333;
+}
+
+.section1 p {
+  color: #eaeaea;
+  font-size: 20px;
+}
+
+.section1 .display-4,
+.leadS,
+.lead {
+  margin-top: 30px;
+}
+
+hr {
+  width: 250px;
+  border-top: 2px solid #999;
+}
+
+.schedule {
+  background-image: url(img/bg.png);
+  min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: 0 -250px;
+}
+
+section {
+  padding-top: 20px;
+  min-height: 600px;
+}
+
+.contact {
+  margin-top: 50px;
+  min-height: 600px;
+  background-color: #eaeaea;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+footer {
+  padding-top: 15px;
+  width: 100%;
+  color: #aaa;
+}
+
+.footer p {
+  color: #aaa;
+}
