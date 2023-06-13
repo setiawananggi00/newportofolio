@@ -4,8 +4,12 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Poppins";
+  src: url(font/poppins/Poppins-Medium.otf);
+}
 body {
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif; 
 }
 
 html {
@@ -19,7 +23,7 @@ html {
 
 .navbar-brand {
   font-weight: 500;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 .nav-link:hover::after {
